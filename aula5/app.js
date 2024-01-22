@@ -165,6 +165,7 @@ window.onload = () => { // callback function
         data.forEach(element => {
             const li = document.createElement("li");
             const button = document.createElement("button");
+            button.classList.add("styled-button");
             button.onclick = (event) => {
                 switch (name) {
                     case "carros":
@@ -181,6 +182,7 @@ window.onload = () => { // callback function
             button.innerText = element.brand;
             li.appendChild(button);
             ul.appendChild(li);
+
         });
         
         nav.appendChild(ul);
@@ -189,8 +191,7 @@ window.onload = () => { // callback function
     for (const key in data) {
         createUL (key, data[key]);
     }
-}
-
+};
 
 
 
