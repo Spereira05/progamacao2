@@ -1,0 +1,38 @@
+[
+    {
+        "type": "Carro",
+        "brand": "ferrari",
+        "speed": 900,
+        "image": "images/ferrari-toto-1.webp"
+    },
+    {
+        "type": "carro",
+        "brand": "fiat",
+        "speed": 50,
+        "image": "images/transferir.jpeg"
+    },
+    {
+        "type": "mota",
+        "brand": "ducati",
+        "speed": 900,
+        "image": "images/20200207_Ducati-Panigale-V4-Superleggera-1.webp"
+    },
+    {
+        "type": "mota",
+        "brand": "kawasaki",
+        "speed": 600,
+        "image": "images/kawasaki_ninja-h2r_2018_1_02012017_1130_1280_960.jpg"
+    },
+    {
+        "type": "carro",
+        "brand": "renault",
+        "speed": 50,
+        "image": "images/Ultime1.jpg"
+    },
+    {
+        "type": "barco",
+        "brand": "titanic",
+        "speed": 0,
+        "image": "images/TITANIC-FUNDO-DO-MAR-CAPSULA-TITAN-1.webp"
+    }
+]
