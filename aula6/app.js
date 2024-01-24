@@ -1,5 +1,6 @@
 import Carro from "./Carro.js"
 import Mota from "./Mota.js"
+import Barco from "./Barco.js"
 
 const loadData = async (url) => {
 
@@ -25,7 +26,7 @@ const createLiContent = (item) => {
                 new Mota(item);
                 break;
             case "barco":
-                new Boat(item);
+                new Barco(item);
                 break;
         }
 
@@ -37,7 +38,7 @@ const createList = (data) => {
     const ul = document.querySelector("ul");
     data.forEach(item => {
         const li = document.createElement("li");
-        il.appendChild(createLiContent(item));
+        li.appendChild(createLiContent(item));
         ul.appendChild(li);
     });
 }

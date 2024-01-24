@@ -3,19 +3,19 @@
         "type": "Carro",
         "brand": "ferrari",
         "speed": 900,
-        "image": "images/ferrari-toto-1.webp"
+        "image": "images/ferrari.jpeg"
     },
     {
         "type": "carro",
         "brand": "fiat",
         "speed": 50,
-        "image": "images/transferir.jpeg"
+        "image": "images/fiat.jpeg"
     },
     {
         "type": "mota",
         "brand": "ducati",
         "speed": 900,
-        "image": "images/20200207_Ducati-Panigale-V4-Superleggera-1.webp"
+        "image": "images/ducati.jpeg"
     },
     {
         "type": "mota",

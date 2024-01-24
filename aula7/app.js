@@ -19,6 +19,10 @@ const createLiContent = (item) => {
 
   button.onclick = () => {
 
+    if(playButton.className === "inactive") {
+      playButton.className = "";
+    }
+
     if (currentVehicle) {
       currentVehicle.destroy()
     }
@@ -46,19 +50,35 @@ const createList = (data) => {
     ul.appendChild(li);
   });
 }
+let isPlaying = null;
+let playButton;
+const animate = () => {
+  currentVehicle.animate();
+  isPlaying = requestAnimationFrame(animate);
+}
+const playAnimation = () => {
+  isPlaying = requestAnimationFrame(animate);
+  console.log(isPlaying);
+  playButton.innerText = "Stop";
+  playButton.className = "red";
+}
+
+const stopAnimation = () => {
+  cancelAnimationFrame(isPlaying);
+  isPlaying = null;
+  playButton.innerText = "Play";
+  playButton.className = "green";
+}
 
 
 window.addEventListener("load", async () => {
-
   const data = await loadData("data.json");
-  data.sort((a, b) => a.type.laceleCompare(b.type))
-
+  data.sort((a, b) => a.type.localeCompare(b.type))
   const ul = createList(data);
-
-  setInterval(() => {
-
-
-  }, 1000);
+  playButton = document.querySelector('#playButton');
+  playButton.onclick = () => {
+    isPlaying ? stopAnimation() : playAnimation()
+  }
 })
 
 // window.onload = async () => {
@@ -69,3 +89,4 @@ window.addEventListener("load", async () => {
 //   const ul = createList(data);
 
 // }
+
