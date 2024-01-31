@@ -1,0 +1,51 @@
+[
+
+    {
+        "type": "Bird",
+        "name": "Seagull",
+        "canFly": true,
+        "image": "./images/seagull.jpeg"
+    },
+    {
+        "type": "Bird",
+        "name": "Chicken",
+        "canFly": false,
+        "image": "./images/chicken.jpeg"
+    },
+    {
+        "type": "Mammal",
+        "name": "Horse",
+        "numLegs": 4,
+        "image": "./images/horse.jpeg"
+
+    },
+    {
+        "type": "Mammal",
+        "name": "Whale",
+        "numLegs": 0,
+        "image": "./images/whale.jpg"
+
+    },
+    {
+        "type": "Reptile",
+        "name": "Crocodile",
+        "scales": true,
+        "image": "./images/crocodile.jpeg"
+
+    },
+    {
+        "type": "Reptile",
+        "name": "Gecko",
+        "scales": true,
+        "image": "./images/gecko.jpeg"
+
+    },
+    {
+        "type": "Reptile",
+        "name": "Godzilla",
+        "scales": true,
+        "image": "./images/barney1.jpeg"
+
+    }
+
+]
