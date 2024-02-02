@@ -1,0 +1,57 @@
+[
+
+    {
+        "type": "Bird",
+        "name": "Seagull",
+        "canFly": true,
+        "image": "./images/seagull.jpeg",
+        "sound": "https://cdn.pixabay.com/audio/2022/03/15/audio_4db794d278.mp3"
+    },
+    {
+        "type": "Bird",
+        "name": "Chicken",
+        "canFly": false,
+        "image": "./images/chicken.jpeg",
+        "sound":"https://cdn.pixabay.com/audio/2023/12/06/audio_41325eb66f.mp3"
+    },
+    {
+        "type": "Mammal",
+        "name": "Horse",
+        "numLegs": 4,
+        "image": "./images/horse.jpeg",
+        "sound":"https://cdn.pixabay.com/audio/2022/10/23/audio_b3ca30d553.mp3"
+
+    },
+    {
+        "type": "Mammal",
+        "name": "Whale",
+        "numLegs": 0,
+        "image": "./images/whale.jpg",
+        "sound":"https://cdn.pixabay.com/audio/2022/03/10/audio_60ff5b13f4.mp3"
+
+    },
+    {
+        "type": "Reptile",
+        "name": "Crocodile",
+        "scales": true,
+        "image": "./images/crocodile.jpeg",
+        "sound":""
+
+    },
+    {
+        "type": "Reptile",
+        "name": "Gecko",
+        "scales": true,
+        "image": "./images/gecko.jpeg",
+        "sound":"https://cdn.pixabay.com/audio/2022/03/15/audio_bb02725768.mp3"
+
+    },
+    {
+        "type": "Reptile",
+        "name": "Godzilla",
+        "scales": true,
+        "image": "./images/barney1.jpeg",
+        "sound":"https://cdn.pixabay.com/audio/2023/03/17/audio_6899256be1.mp3"
+    }
+
+]
