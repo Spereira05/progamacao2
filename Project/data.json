@@ -1,0 +1,24 @@
+[
+    {
+    "type": "Painting",
+    "title": "The Starry Night",
+    "year": "1889",
+    "medium": "",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ea/Van_Gogh_-_Starry_Night_-_Google_Art_Project.jpg/1200px-Van_Gogh_-_Starry_Night_-_Google_Art_Project.jpg",
+    "artist": " Artist: Vincent van Gogh",
+    "description": "In Breughel's Icarus, for instance: how everything turns away,\nQuite leisurely from the disaster; the ploughman may,\nHave heard the splash, the forsaken cry,\nBut for him it was not an important failure"
+    },
+    {
+    "type": "Painting",
+    "title": "Langston Hughes",
+    "year": "1925",
+    "medium": "",
+    "image": "https://npg.si.edu/sites/default/files/teacher_resources_hughes.jpg",
+    "artist": " Artist: Winold Reiss",
+    "description": "In the foreground we see time and life\nswept in a race\ntoward the left hand side of the picture\nwhere shore meets shore.\nBut that meeting place\nisn't represented;\nit doesn't occur on the canvas."
+    }
+    
+
+    
+
+]

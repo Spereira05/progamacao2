@@ -12,7 +12,7 @@ export default class Reptile extends Animal {
 
     introduce() {
 
-        let parentIntroduce = super.intoduce();
+        let parentIntroduce = super.introduce();
         return this.#isAgressive ? 
         parentIntroduce + " and I'm agressive'" :
         parentIntroduce + " and I'm peacefull";

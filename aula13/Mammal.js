@@ -11,7 +11,7 @@ export default class Mammal extends Animal {
 
     introduce() {
 
-        let parentIntroduce = super.intoduce(); 
+        let parentIntroduce = super.introduce(); 
         return parentIntroduce + " walking on " + this.#numLegs + " legs";
     }
 }
