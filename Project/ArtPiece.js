@@ -17,16 +17,7 @@ export default class ArtPiece {
                 this.callback(this.data);
            
         };  
-        // this.imageDescription = document.createElement("p");
-        // this.imageDescription.innerText = this.data.description;
-        // this.imageTitle = document.createElement("h2");
-        // this.imageArtist = document.createElement("h3");
-        // this.imageTitle.innerText = this.data.title;
-        // this.imageArtist.innerText = this.data.artist;
-        // this.container.appendChild(this.imageElem);
-        // this.container.appendChild(this.imageDescription);
-        // this.container.appendChild(this.imageTitle);
-        // this.container.appendChild(this.imageArtist);
+
     }
 
 

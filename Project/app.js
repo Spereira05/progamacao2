@@ -8,7 +8,6 @@ window.onload = async () => {
     const result = await request.json();
 
     const gallery = new Gallery((item) => {
-        console.log("qlwhd")
         updateInfo(item)
     });
 
@@ -31,6 +30,7 @@ window.onload = async () => {
         console.log(item)
         document.querySelector("h2").innerText = item.title;
         document.querySelector("h3").innerText = item.artist;
+        document.querySelector("p").innerText = item.description;
     }
 }
 
